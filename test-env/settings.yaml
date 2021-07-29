@@ -1,0 +1,16 @@
+---
+:machine:
+  :hostname: ubuntu-18-04
+  :timezone: Europe/Moscow
+  :memory: 512
+  :cpus: 1
+  
+:forwarded_ports:
+# SSH
+- :id: ssh
+  :host: 2200
+  :guest: 22
+#
+#:synced_folder:
+#  :host: ~/Code
+#  :guest: /home/vagrant/Code
